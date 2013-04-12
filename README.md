@@ -1,4 +1,5 @@
 <pre>
+
 blindseye
 =========
 
@@ -20,7 +21,10 @@ Keyboard commands:
 
 The numeric keypad is used to interface with client features.
 Arrow keys are used to navigate software commands and other options.
-TAB is used to switch between Output and Input windows.
+CTRL-Up or Ctrl-Down arrow lets you move through your command accumulation buffer
+Up or Down lets you move the smart talking cursor inside the output window
+Scroll Lock toggles screen reader
+Alt-S toggles sound
 Numpad INSERT allows you to create a new connection either from a defined or a new game.
 Forward slash / allows you to type verbose commands into the client (see below)
 
@@ -32,4 +36,5 @@ Verbose commands:
 /t <name> <macro> <search>   - triggers trigger of <name> when search phrase is seen and executes command by name
 /m <name> <command;list>     - groups a list of commands into a macro which can be triggered by name, cannot override a verbose command
 /x <name> X Y                - executes a macro by name X times with an interstitial delay of Y (default 1 second)
+
 </pre>
