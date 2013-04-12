@@ -1,3 +1,4 @@
+<pre>
 blindseye
 =========
 
@@ -31,3 +32,4 @@ Verbose commands:
 /t <name> <macro> <search>   - triggers trigger of <name> when search phrase is seen and executes command by name
 /m <name> <command;list>     - groups a list of commands into a macro which can be triggered by name, cannot override a verbose command
 /x <name> X Y                - executes a macro by name X times with an interstitial delay of Y (default 1 second)
+</pre>
